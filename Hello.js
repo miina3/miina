@@ -7,9 +7,9 @@ var timer;
 function initial(){
 	canvas = document.querySelector('#canvas')  
     img = new Image();
-    img.src = "image/suzume背景透過.png";
+    img.src = "suzume背景透過.png";
     bkimg = new Image();
-    bkimg.src = "image/背景1.JPG";
+    bkimg.src = "背景1.JPG";
     bkimg.onload = function(){
     	anim = new Anim();
     	canvas.onclick = makeCharacter;
