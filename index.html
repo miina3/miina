@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>すずめの森</title>
-    <link rel="stylesheet" href="すずめtop.css">
-  </head>
-<body>
-  <div class="header">
-  </div>
-  <div class="main">
-    <h1>すずめの森</h1>
-    <p>素敵な仲間と不思議な世界</p>
-    <a href="file:///C:/Users/m1132/Documents/ATOM/すずめ/すずめ1.html" class="btn entry">入口</a>
-  </div>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+	<title>Hello!</title>
+	<style>
+	body {font-size:14pt font-weight:plain;}
+	h1 {color:white; font-size:24pt;
+	    background-color:red;}
+	#canvas {
+		background-color:white;
+		border:1px solid gray;
+	}
+	</style>
+	<script src="Lesson4-15.js"></script>
+</head>
+
+<body onload="initial();">
+	<h1 id="title">Hello！</h1>
+	<h2>クリックするたびにキャラクターが増えるよ<h2>
+    <canvas id="canvas" width="1487" height="837"></canvas>
 </body>
 </html>
